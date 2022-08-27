@@ -1,7 +1,3 @@
-<p align="center">
-  <img width="400px" src="https://github.com/bufferapp/buzzer/blob/master/public/buzzer-logo.svg?raw=true&sanitize=true" alt="Buzzer"/>
-</p>
-
 A buzzer app made for Quizz program of MCICTS ICT day 2020 "INFIGO`20"!
 App was originally made by Dinitha Wickramasinghe, purindu Weerawardena & Sanuth Desith. Project was also held by daniel.j.farrelly's Buzzer app project!
 Uses websockets to sent messages.
