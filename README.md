@@ -27,14 +27,16 @@ Open http://localhost:8080 in your browser to start!
 
 ## How to use
 
-The players goto the homepage (`http://localhost:8080/`) and they can enter their name and team
+The players goto the homepage (`http://localhost:8080/`) and they can enter their school name and team
 number. Joining will give them a giant buzzer button!
 
-The host heads over to `/host` and will be able to see everyone that buzzes in and clear the list
+The Admin heads over to `/Admin_123789852` and will be able to see everyone that buzzes in and clear the list
 in between questions.
+
+Large LED display is available at `/host` and will show the team name and number of the team that buzzed in.
 
 ## License
 
 MIT
-All rights reserved by. ICT Society of Mahanama College Colombo 03 (MCICTS)
-2020-01-10
+All rights reserved by Dinitha Wickramasinghe @ICT Society of Mahanama College Colombo 03 (MCICTS)
+2020-01-28
