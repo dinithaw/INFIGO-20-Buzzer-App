@@ -1,0 +1,31 @@
+doctype html
+html
+  head
+    title=title
+    <link href="img/favicon.png" rel="icon">
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+    link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:500,700|Roboto:400,500,700,900")
+    link(rel="stylesheet" href='/style.css')
+  body.js-body
+    header
+    <center>
+      img.logo(src='/infigo 20.png')
+
+    div.container
+      form.view.js-join
+        <!--img(src="/lets-play.png" class="main-image")-->
+        <marquee><b>Please Enter Your School Name and Team Name in below For Quiz Buzzer</b></marquee>
+        h2="Let's Begin!"
+        input(type='text' name='name' placeholder='Your School Name' required='required')
+        input(type='text' name='team' placeholder='Your Team Name' required='required')
+        button(type='')='JOIN!'
+
+
+      div.view.js-joined.hidden
+      
+        p.js-joined-info=""
+        <marquee><center><font color='red'><b>Please Do Not Refresh Your Browser</b></font></center></marquee>
+        button.js-buzzer.buzzer()='! HIT !'
+
+    script(src='/socket.io/socket.io.js')
+    script(src='/join.js')

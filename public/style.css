@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  background: linear-gradient(-45deg, #e5e75d 15%, #fffefe 50%,#000000 90%); 
+  color: #1A2634;
+  text-align: center;
+}
+
+body,
+input,
+button {
+  font-size: 1em;
+}
+
+p {
+  margin: 2em 0;
+  font-family: Quicksand;
+  font-size: 35px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+ol {
+  text-align: left;
+}
+
+ol{
+  list-style: none;
+  counter-reset: item;
+}
+
+ol > li{
+  counter-increment: item;
+  margin-bottom: 5px;
+}
+
+ol > li:before {
+  margin-right: 15px;
+  content: counter(item);
+  background: #FF8A65;
+  border-radius: 100%;
+  color: white;
+  width: 1.3em;
+  text-align: center;
+  display: inline-block;
+}
+
+li {
+  margin: 0.5em 0;
+}
+
+.hidden {
+  display: none;
+}
+
+header {
+  position: absolute;
+  background-color: #fff;
+}
+
+.logo { 
+  align-self: auto;
+  max-width: 200px;
+  max-height: 220px;
+  padding: 1em 0;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  max-width: 400px;
+  padding: 1em;
+  margin: 0 auto;
+}
+.view button:last-child {
+  margin-bottom: 0;
+}
+
+.buzzer-mode {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+input[type="text"],
+input[type="number"],
+button {
+  display: block;
+  padding: 0.8em 1.4em;
+  margin: 1em 0;
+  width: 100%;
+  border-radius: 5px;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  font-weight: 500;
+}
+
+input[type="text"],
+input[type="number"] {
+  border: 1px solid #B8B8B8;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="text"]:active,
+input[type="number"]:active {
+  border-color: #2c4bff;
+  box-shadow: 0 0 0 3px #ABB7FF;
+  outline: none;
+}
+
+button {
+  padding: 1.4em 1.4em;
+  font-size: 1.2em;
+  background-color: #152941;
+  color: #fff;
+  cursor: pointer;
+  border: 0;
+}
+
+button:hover {
+  background-color: rgb(235, 175, 13);
+}
+
+button:active {
+  box-shadow: rgb(171, 183, 255) 0px 0px 0px 3px;
+  outline: 0px;
+  transform: translateY(  1px);
+}
+button:focus {
+  box-shadow: 0 0 0 3px #ABB7FF;
+}
+
+.main-image {
+  width: 90%;
+}
+
+.buzzer {
+  height: 10em;
+  font-size: 2em;
+  background-color: rgb(21, 41, 65);
+  color: rgb(255, 217, 1);
+}
+.buzzer:focus {
+  box-shadow: 0 0 0 3px #ABB7FF;
+}
+.buzzer:hover,
+.buzzer:active {
+  background-color: #D00018;
+}
+
+.secondary {
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+}
+
+.secondary:hover {
+  position: absolute;
+  background-color: rgb(21, 41, 65);
+}

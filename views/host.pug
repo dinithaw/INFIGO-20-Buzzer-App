@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title=title
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+    link(rel="stylesheet" href='/style_host.css')
+  body
+    header
+    <center>
+      img.logo(src='/infigo 20.png')
+
+    div.container
+      h2.js-active=`${users.length} JOINED`
+      ol.js-buzzes
+        each buzz in buzzes
+          li=`${buzz.name} Team ${buzz.team}`
+
+    script(src='/socket.io/socket.io.js')
+    script(src='/host.js')
+  
